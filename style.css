@@ -1,0 +1,132 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+@font-face {
+  font-family: calvier;
+  src: url(./Calvier.ttf);
+}
+
+h1 {
+  font-family: calvier;
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+#firstnameT1{
+  margin-right: 5px;
+}
+#firstnameT1,#lastnameT1{
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h3{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+}
+
+.out{
+font-family: 'Poppins', sans-serif;
+}
+.firstname {
+  width: 49%;
+}
+
+.lastname {
+  width: 50%;
+}
+
+.contact {
+  display: inline-block;
+  width: 25%;
+  margin-right: 3%;
+}
+
+.email {
+  display: inline-block;
+  width: 30%;
+  margin-right: 3%;
+}
+
+.image{
+    display: inline-block;
+    width: 37%;
+}
+svg {
+  margin-bottom: 3px;
+}
+
+
+.myimg {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.background {
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; 
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} 
+
+#firstnameT,
+#lastnameT,
+#firstnameT1,
+#lastnameT1 {
+  display: inline-block;
+}
+
+#cv-template{
+  display: none;
+}
+
+.bi-github,.bi-instagram,.bi-facebook,.bi-linkedin{
+  margin-right: 3px;
+}
+
+.svg1,.links{
+  padding: 0;
+}
+
+button {
+  transition: all .5s ease;
+  color: black;
+  border: 3px solid gray;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  color: whitesmoke;
+  background-color: black;
+  border-color: white;
+}
